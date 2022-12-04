@@ -1,0 +1,113 @@
+
+/* Header -----------*/
+h1 {
+    font-family: 'Fraunces', serif;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem ;
+}
+
+.unique {
+    display: inline-flex;
+    font-family: 'Fraunces', serif;
+    font-size: 100px;
+    text-indent: px;
+    padding-top: 12rem;
+    height: -300px;
+}
+
+.photos {
+    border: ;
+    padding-top: 2rem;
+    padding-bottom: -2rem;
+    height: 200px;
+    margin-bottom: 10rem;
+    padding-bottom: 70rem;
+}
+
+.photo {
+    border: ;
+    padding-top: 4rem;
+    height:450px;
+    margin-bottom: 3rem;
+}
+
+.photo1 {
+    border: ;
+    height:500px;
+}
+
+.products {
+    /* display: absolute; */
+    flex-direction: row;
+    text-align: center;
+    font-family: 'Fraunces', serif;
+    text-decoration: none;
+}
+
+.products :hover{
+        color: rgb(211, 14, 14);
+}
+
+ .opt1 {
+    margin-left: 50px;
+    text-decoration: none;
+    margin-right: 50px;
+}
+.opt2 {
+    margin-left: 50px;
+    text-decoration: none;
+    margin-right: 50px;
+}
+.opt3 {
+    margin-left: 50px;
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+
+
+/* Product ---------*/
+.box-1 {
+    border: solid;
+    border-color: azure;
+    border-style:groove;
+    height: 500px;
+    width: 85%;
+    background-color: #E8F3D6;
+    margin-top: 5rem;
+    margin-left: 14rem;
+}
+
+.box {
+    height: 55vh;
+    width: 220vh;
+    margin-left: 1rem;
+    padding: 5rem 7rem;
+    border: ;
+ }
+ 
+ .box img {
+     width: 19.9rem;
+     height: 25rem;
+ }
+ 
+ .card {
+     display: inline-block;
+     height: 39rem;
+     width: 20rem;
+ }
+ 
+ h5 {
+     padding-top: 1rem;
+     font-size: medium;
+ }
+ h6 {
+     padding-top: 0.5rem;
+     font-size: small;
+ }
+ 
+.h5 a:hover{
+    color: rgb(151, 33, 33)(214, 176, 176);
+}
