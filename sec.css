@@ -232,7 +232,7 @@ h3 {
 .landscape {
     position: relative;
     margin: auto;
-    height: 61.5vh;
+    height: 60.3vh;
     width: 72%;
     border: 1px solid rgba(245, 245, 245, 0.404);
     border-radius: 0.5rem;
@@ -297,7 +297,7 @@ h3 {
 }
 .prodsale img, .prodsale1 img {
     height: 24.10rem;
-    width:21.4rem;
+    width:21.6rem;
 }
 
 .prodsale img:hover , .prodsale1 img:hover {
