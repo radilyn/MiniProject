@@ -33,7 +33,7 @@
 
 <style>
     body {
-        background: url('./images/bakk.jpg');
+        background: url('/images/backgcopy.JPG');
         background-size:cover;
         /* background-attachment:fixed; */
         height: 100vh;
@@ -519,7 +519,6 @@ justify-content-center">
     const whiteSpace = `<div class="col-1"> </div>`
     _tempItems.push(whiteSpace)
     // loop through all the product from the database, then assign each product with a template then store it to the _tempItems will assigning is still going on.
-    console.log(rad_products_for_him)
     rad_products_for_him.forEach((item, i) => {
       if (i === 5) _tempItems.push(whiteSpace)
       _tempItems.push(productContainerForHim(item))
