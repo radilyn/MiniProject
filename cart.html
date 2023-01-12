@@ -13,6 +13,7 @@
 <link rel="stylesheet" href="sec.css">
 <link rel="stylesheet" href="contact.css">
 <link rel="stylesheet" href="cart.html">
+<link rel="stylesheet" href="checkout.html">
 
 <script src="store.js" async></script>
 
@@ -79,12 +80,12 @@
                   </li>
             
 
-            <form class="searchbox d-flex" role="search">
+            <!-- <form class="searchbox d-flex" role="search">
                 <input class="form-control me-4" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>  
+            </form>   -->
 
-            <li class="nav-item ps-5 me-5">
+            <li class="fav nav-item ps-5 me-5">
                 <a href="file:///C:/Users/radil/OneDrive/Desktop/WD35P/PRACTICE/MINIPROJECT101/cart.html#"><i class="fa-regular fa-heart fa-xl me-3" style="margin-top: 1.5rem;"></i></a>
               </li>
               
@@ -125,7 +126,11 @@ margin-right: 40rem; height: auto;">
 
 <!------ ITEMS ADDED TO CART----->
 
-<div class="list" style="width: 100%;">
+<div class="list" style="width: 100%;    background-color: rgba(250, 235, 215, 0.486);  
+padding-bottom: 2rem;
+margin: 0.5rem 0rem;
+padding-left: 3rem; 
+border: .05px solid rgba(128, 128, 128, 0.616);">
 
   <div class="rad_item_from_cart">
 
@@ -135,39 +140,46 @@ margin-right: 40rem; height: auto;">
 <!----------------ITEMS TOTAL ---------------->
 
 
-<div class="row d-block mb-2" style="width: 45%; margin-left: 60.7rem;">
+<div class="row d-block mb-2" style="width: 45%; margin-left: 60.7rem; background-color: rgba(255, 254, 254, 0.699);">
 
-  <div class="col total">
+  <div class="col total" style="border: 1px solid rgba(128, 128, 128, 0.616);background-color: rgba(255, 254, 254, 0.699);  ">
     <div class="row">
         <div class="col-3">
-            <h4 class="buytitle" style="color: black;">Subtotal</h4>
+            <h4 class="buytitle" style="color: black;background-color: rgb(255, 254, 254);">Subtotal</h4>
         </div>
         <div class="col text-center ms-5">
-            <h4 class="sub_total" style="font-size: 1.8rem; color: red;">₱0.00</h4>
+            <h4 class="sub_total" style="font-size: 1.8rem; color: red;background-color: rgba(255, 254, 254, 0.699);">₱0.00</h4>
         </div>
     </div>
     <div class="row">
         <div class="col-3">
-            <h4 class="buytitle" style="color: black;">Tax</h4>
+            <h4 class="buytitle" style="color: black;background-color: rgba(255, 254, 254, 0.699);">Tax</h4>
         </div>
         <div class="col text-center ms-5">
-            <h4 class="the_tax" style="font-size: 1.8rem; color: red;">₱0.00</h4>
+            <h4 class="the_tax" style="font-size: 1.8rem; color: red;background-color: rgba(255, 254, 254, 0.699);">₱0.00</h4>
         </div>
     </div>
 </div>
 
-  <div class="col mt-2" style="border: 1px solid rgba(128, 128, 128, 0.616); height: 6rem; border-bottom: .05px solid rgba(128, 128, 128, 0.616); border-style: dashed;">
+  <div class="col mt-2" style="border: 1px solid rgba(128, 128, 128, 0.616); height: 6rem; border-bottom: .05px solid rgba(128, 128, 128, 0.616); border-style: dashed;background-color: rgba(255, 254, 254, 0.699);">
     <div class="row">
       <div class="col-3 mt-3">
-          <h4 class="buytitle" style="color: black;">Total</h4>
+          <h4 class="buytitle" style="color: black;background-color: rgba(255, 254, 254, 0.699);">Total</h4>
       </div>
       <div class="col text-center ms-5 mb-2">
-          <h4 class="sub_total_with_tax" style="font-size: 3rem; color: red;">₱0.00</h4>
+          <h4 class="sub_total_with_tax" style="font-size: 3rem; color: red;background-color: rgba(255, 254, 254, 0.699);">₱0.00</h4>
       </div>
 
-      <div class="checkout mt-3 text-center" style="width: 100%;height:6.1rem; border: .5px solid rgba(128, 128, 128, 0.616); border-style: dashed;">
+      <div class="checkout mt-3 text-center" style="width: 100%;height:6.1rem; border: .5px solid rgba(128, 128, 128, 0.616); border-style: dashed;background-color: rgba(255, 254, 254, 0.699);">
         <a href="" style="text-decoration: none;"><h3 class="mt-3">Vouchers</h3></a>
-        <a  class="checkout1 p-4" href="#billing" alt="" style="text-decoration: none; color: #fff; font-size: 2rem;" >Check out</a>
+        <a  class="checkout1 p-4" href="file:///C:/Users/radil/OneDrive/Desktop/WD35P/MINIPROJECTfinal/checkout.html" alt="" style="text-decoration: none; color: #fff; font-size: 2rem;     display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 23rem;
+        margin-top: -3.9rem; 
+        margin-bottom: 8rem;  
+        width: 20rem;
+        height: 5.5rem; background-color: rgb(39, 156, 172);">Check out</a>
       </div>
     </div>
 
