@@ -83,55 +83,12 @@
         display: none;
     }
 
-    
-    /*/--------------LANDSCAPE------//*/
-    .vertical {
-        width: 90%;
-        height: 108vh;
-        margin-bottom: -9rem;
-    }
-    .landscape {
-        margin-top: 1px;
-        width: 0.01rem;
-    }    
-    
-    .adsbox {
-        margin-left:27.8rem;
-        margin-top: 0.01rem;
-        padding-bottom: 1rem;
-    }
-    .carousel-inner img {
-        margin-top: -1rem;
-        height: 41rem;
-        width: 55rem;
-    }
-    
-    .head {
-        margin-left: -2rem;
-        padding-left: 3rem;
-        margin-top: -6rem;
-        width: 100vw;
-        font-size: 1rem;
-    } 
-    
-    .sale{
-        display: none;
-    }
-    
-    .prodsale,.prodsale1 {
-        margin-left: 28rem;
-        padding-top: -1rem;
-    }
-    .prodsale img, .prodsale1 img {
-        height: 20rem;
-        width:14rem;  
-    }
-    
+ 
     /* ------- logos ------*/
     
     .logos {
         height: 13vh;
-        margin-bottom: 1rem;
+        margin-bottom: -7rem;
         margin-left: -5rem;
     }
     
