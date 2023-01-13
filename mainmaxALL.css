@@ -144,8 +144,8 @@
     
     .flexbox-container img {
         margin-left: -0.5rem;
-        margin-top: 3rem;
-        height: 55rem;
+        margin-top: 7rem;
+        height: 60rem;
         width: 40rem;
     }
     
@@ -153,14 +153,14 @@
         font-size: 12rem; 
         margin-left: -405px;
         height:160px;
-        margin-top: 12rem;
+        margin-top: 20rem;
         padding-bottom: 3rem; 
         text-shadow: 2px 2px #c9d3d4;
     }
 
     .searchbox {
     position: absolute;
-    top: 46rem;
+    top: 55rem;
     left:7.8rem;
     width: 60rem;
     height: 5rem;
@@ -224,13 +224,13 @@
         font-size: 10rem; 
         margin-left: -510px;
         height:150px;
-        padding-bottom: 3rem; 
+        margin-top: 15rem;
         text-shadow: 2px 2px #c9d3d4;
     }
 
     .searchbox {
         position: absolute;
-        top: 46rem;
+        top: 48rem;
         left:2rem;
         width: 55rem;
         height: 4.5rem;
