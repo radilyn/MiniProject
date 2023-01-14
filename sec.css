@@ -255,9 +255,9 @@ h3 {
 
 /* ------- logos ------*/
 .logos {
-    height: 7vh;
+    height: 13vh;
     width: 100%;
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
     /* border: 1px solid black; */
 }
 
@@ -265,7 +265,7 @@ h3 {
     height: 10rem;
     width: auto;
     margin-left: 9rem;
-    margin-top: -5rem;
+    margin-top: -2rem;
 }
 
 .l1:hover, .l2:hover, .l3:hover, .l4:hover, .l5:hover, .l6:hover, .l7:hover  {
