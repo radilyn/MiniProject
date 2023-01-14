@@ -215,7 +215,7 @@
 }
 
 .card {
-     max-height: 375px;
+     /* max-height: 378px; */
      max-width:fit-content;
      margin-bottom: 3rem;
 }
